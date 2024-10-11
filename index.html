@@ -5,20 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./src/card.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="./src/button.css">
 
     <script
       src="https://kit.fontawesome.com/1fd739c86e.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/progressbar.js" defer></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
-      defer
-    ></script>
+  
     <script src="script.js" defer></script>
 
     <title>Antonin Portfolio</title>
@@ -286,45 +279,62 @@
     </section>
 
     <!-- Projets -->
-    <section id="projects">
+    <section id="projets">
       <div class="container">
         <div class="intro">
           <div class="title-subtitle">
             <h2>Mes <span>Réalisations</span></h2>
           </div>
         </div>
-      </div>
-      <div class="projects">
-        <div class="project proj-1">
-          <div class="paperclips pap-1">
-            <div class="info">
-              <a href="https://kaly-xi.vercel.app/">Voir le projet</a>
-            </div>
-          </div>
-        </div>
-        <div class="project proj-2">
-          <div class="paperclips pap-2">
-            <div class="info">
-              <a href="https://grafikaly.vercel.app/">Voir le projet</a>
-            </div>
-          </div>
-        </div>
-        <div class="project proj-3">
-          <!-- <div class="paperclips pap-3">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
-        <div class="project proj-4">
-          <!-- <div class="paperclips pap-4">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
-      </div>
+        <div class="projet-contents">
 
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Grafikaly.jpg" alt="Projet grafikaly">
+          </div>
+          
+          <h2>Grafikaly</h2>
+          <p>
+            Landing page d'un site e-commerce d'abonnement en ligne.
+          </p>
+          <div class="button">
+            <a href="https://grafikaly.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/kaly.jpg" alt="Projet kaly">
+          </div>
+          
+          <h2>Kaly</h2>
+          <p>
+            Un site vitrine d'un restaurant Malgache pour des plats simples et sains.
+          </p>
+          <div class="button">
+            <a href="https://kaly-xi.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/test-integ.jpg" alt="Projet Mairala">
+          </div>
+          
+          <h2>Mairala</h2>
+          <p>
+            Projet d'intégration web pour un entretien d'embauche.
+          </p>
+          <div class="button">
+            <a href="https://test-integ.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="info-projet">
         <h3>Vous voulez voir mes Projets</h3>
         <p>
@@ -351,36 +361,6 @@
           </button>
         </a>
       </div>
-
-      <div class="projects">
-        <div class="project proj-5">
-          <!-- <div class="paperclips pap-5">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
-        <div class="project proj-6">
-          <!-- <div class="paperclips pap-6">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
-        <div class="project proj-7">
-          <!-- <div class="paperclips pap-7">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
-        <div class="project proj-8">
-          <!-- <div class="paperclips pap-8">
-            <div class="info">
-              <a href="#">Voir le projet</a>
-            </div>
-          </div> -->
-        </div>
       </div>
     </section>
 
@@ -419,6 +399,11 @@
         </div>
       </div>
     </footer>
-
+    <div class="copyright">
+      <div class="copywrite">
+          <p>Copyright © Antonin Rz - <span> Portfolio </span></p>
+          <P>Site créé par <a href="https://antoninrz-portfolio.vercel.app/"><span>Antonin Razafison</span></a></P>
+      </div>
+    </div>
 </body>
 </html>
