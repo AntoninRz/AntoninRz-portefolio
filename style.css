@@ -350,6 +350,139 @@ h1 #name {
     padding: 30px 0;
 }
 
+/* ************* Services ************** */
+#services {
+    width: 100%;
+    height: fit-content;
+    margin: 32px 0;
+}
+
+#services .container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.services-content {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.services-categories {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services-categories .categorie {
+    border: 1px solid #ffab11;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio {
+    margin-top: 32px;
+    padding: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.portfolio-content {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.portfolio-content .image {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.portfolio-content .image img {
+    height: 300px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#port-1 {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    transform: rotate(-30deg);
+    z-index: 0;
+}
+#port-2 {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 1;
+}
+#port-3 {
+    position: absolute;
+    top: 0;
+    left: 170px;
+    transform: rotate(30deg);
+    z-index: 0  ;
+}
+
+.portfolio-content .description {
+    width: 400px;
+    height: 100%;
+    padding: 32px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 3;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.portfolio-content .description p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1020px) {
+    #port-1 {
+        transform: rotate(-15deg);
+        left: -30px;
+    }
+    #port-2 {
+        left: 30px;
+    }
+    #port-3 {
+        left: 85px;
+        transform: rotate(15deg);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-content .image {
+        display: none;
+    }
+    .portfolio-content .description {
+        width: 100%;
+        right: 0;
+        position: relative;
+        padding: 32px 16px;
+    }
+    .portfolio-content {
+        height: fit-content;
+    }
+}
+
+
 /* *********** projets *************** */
 
 #projets {
