@@ -13,6 +13,14 @@
     "disown-opener": "off",
     "axe/parsing": [
       "default"
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
+      }
     ]
   }
 }
