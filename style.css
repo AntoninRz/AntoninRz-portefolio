@@ -25,6 +25,7 @@ h1, h2, h3 {
 }
 h1 span, h2 span, h3 span {
     color: #ffab11;
+    text-transform: none;
 } 
 
 h2 {
@@ -435,7 +436,7 @@ h1 #name {
 }
 
 .portfolio-content .description {
-    width: 400px;
+    width: 500px;
     height: 100%;
     padding: 32px;
     position: absolute;
