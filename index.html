@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="Antonin RAZAFISON Portfolio" />
+    <meta name="author" content="Antonin Razafison" />
+
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/card.css">
+    <link rel="stylesheet" href="./src/button.css">
+
+    <script
+      src="https://kit.fontawesome.com/1fd739c86e.js"
+      crossorigin="anonymous"
+    ></script>
+  
+    <script src="script.js" defer></script>
+
+    <title>Antonin Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="navigation">
+          <div class="brand">
+            <a href="">
+              <img src="./assets/medias/Profil.jpg" alt="profil" />
+              <p><span>Dé-</span>full</p>
+            </a>
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#info-perso">à propos</a></li>
+              <li><a href="#skills">Compétences</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#projects">Projets</a></li>
+              <li><a href="#contact">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="burger">
+            <a href="">&#9776;</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="profil">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <img src="./assets/medias/Profil.jpg" alt="photo de profil" />
+          </div>
+          <div class="title-description">
+            <h1>
+              <span id="name">
+                <hr />
+                Antonin &nbsp;<span>RAZAFISON</span>
+              </span>
+              <span>Développeur web</span>
+            </h1>
+            <p>
+              Passionné par l'informatique et le développement web, je crée des
+              interfaces utilisateur intuitives et réactives qui offrent des
+              expériences exceptionnelles. Avec une expertise en HTML, CSS,
+              JavaScript et les frameworks modernes, je transforme les idées en
+              réalité numérique, en alliant esthétique et fonctionnalité pour
+              chaque projet.
+            </p>
+            <a href="#info-perso" class="button">
+              <button type="button" class="primary-button">Me connaître</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Information personnel -->
+    <section id="info-perso">
+      <div class="container">
+        <div class="info-perso-content">
+          <div class="title">
+            <h2>à propos <span>de moi</span></h2>
+          </div>
+          <div class="info-perso">
+            <div class="info-content">
+              <div class="info-perso-title">
+                <h3>Informations personnelles</h3>
+              </div>
+              <div class="mes-infos">
+                <div class="infos-content">
+                  <p><span>Nom :</span> RAZAFISON</p>
+                  <p><span>Prénom :</span> Antonin</p>
+                  <p><span>Localisation :</span> Madagascar</p>
+                  <p><span>Nationalité :</span> Malagasy</p>
+                  <p><span>E-mail :</span> toninrazafison@gmail.com</p>
+                </div>
+                <div class="infos-content">
+                  <p><span>Téléphone :</span> +261 34 66 452 54</p>
+                  <p><span>GitHub :</span> AntoninRz</p>
+                  <p><span>Facebook :</span> Antonin Razafison</p>
+                  <p><span>LinkedIn :</span> Antonin Razafison</p>
+                  <p><span>Freelance :</span> Disponible</p>
+                </div>
+              </div>
+              <div class="cv">
+                <a href="https://github.com/AntoninRz/Mon-CV" target="_blank" class="button">
+                  <button type="button" class="download-button">
+                    <div class="docs">
+                      <svg viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="blue"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="css-i6dzq1"
+                      >
+                        <path
+                          d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                        ></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                      </svg>
+                      Télécharger mon CV
+                    </div>
+                    <div class="download">
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="css-i6dzq1"
+                      >
+                        <path
+                          d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                        ></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                      </svg>
+                    </div>
+                  </button>
+                </a>
+              </div>
+            </div>
+            
+            <!-- Book -->
+            <div class="book">
+              <p class="text">Je suis un Développeur web, frontend avec un parcours qui peut vous faire dire "mais c'est quoi ce parcours ?"🤣🤣 <br>
+                Je vais vous raconter où j'étais avant d'être un développeur web.😁 <br>
+                Après le terminal, on m'appelait "Antoninus le philosophe" 🧐 parce que la philosophie a été ma matière, pas seulement préférée, mais aussi favorite. C'était une grande passion entre moi et les idées philosophiques.🥰 <br>
+                Mais après le bac, je n'ai pas pu m'inscrire aux études philosophiques à l'université.😔😔 Et là, comme la majorité de Malagasy, on ne se sait pas dans quelle filière on va plonger. Alors, j'ai écouté mes amis et j'ai décidé de faire des études de, pas encore le développement web 😁, mais de GESTION. 🤓 Mais je n'ai pas pu tenir plus d'une année. On ne s'aime pas lui et moi.😒 <br> 
+                Puis une nouvelle année commence à l'université d'Antananarivo, et les inscriptions sont ouvertes. Et c'est là, que j'ai vu au domaine de lettres et sciences humaines, une nouvelle filière qui me parle bien. 😍 Ce n'est pas la philosophie, mais la Psychologie Sociale et Interculturelle.😳 <br>
+                Oui, j'ai une licence en Psychologie Sociale et Interculturelle.🧑‍🎓 Mais ça s'arrête là.👨‍🎓 <br>
+                La raison ? J'ai recroisé la passion de ma vie pendant le confinement. C'était évident depuis toujours, mais j'étais encore jeune et naïf.🤣 Pendant qu'on a pas de cours lors du passage du fameux COVID-19, j'ai passé mon temps devant mon ordinateur et Internet.🤓 Et, c'est là que j'ai croisé le regard d'une formation à l'I.O.T(Internet of things).🥳 <br> Depuis, j'ai intégré une petite communauté d'informaticien et j'ai rencontré petit à petit des belles et jolies formations dans plusieurs secteurs de l'informatique.😍 Mais après avoir passé du temps avec l'une d'entre elles, je m'en lâche et je passe à une autre. <br>
+                Mais, un jour, une formation de développement web se présente devant moi.😍 C'était le coup de foudre après la première "HELLO WORD"🤣🤓 et depuis je suis devenu développeur web et je n'arrête pas de le découvrir chaque jour parce que je peux développer en code, en CMS et en no-code aujourd'hui.🥰</p>
+              <div class="cover">
+                <div class="cover-content">
+                  <div class="source">
+                    <h4>author <br>Antonin RAZAFISON</h4>
+                  </div>
+                  <div class="title">
+                    <h2>De la <br>philosophie au <br> <span> Développement web</span></h2>
+                  </div>
+                </div>
+                <div class="introduction">
+                  <p>L'histoire de mes parcours. Comment j'ai rencontré ma passion du développement web</p>
+                </div>
+              </div>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills">
+      <div class="container">
+        <h2>Mes <span>Compétences</span></h2>
+        <div class="skills">
+          <div class="list">
+              <div class="card2">
+                  <div class="content">
+                    <div class="back">
+                      <div class="back-content dev">
+                        <h3>Langage Web</h3>
+                      </div>
+                    </div>
+                    <div class="front">                      
+                      <div class="front-content">
+                          <div class="skill">
+                            <img src="./assets/medias/logos/html-5.png" alt="Logo html">
+                          </div>
+                          <div class="skill">
+                            <img src="./assets/medias/logos/css.png" alt="Logo css">
+                          </div>
+                          <div class="skill">
+                            <img src="./assets/medias/logos/Javascript.png" alt="Logo JavaScript">
+                          </div>
+                          <div class="skill">
+                            <img src="./assets/medias/logos/php.png" alt="Logo php">
+                          </div>
+                          <div class="skill">
+                            <img src="./assets/medias/logos/mysql.png" alt="Logo mysql">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card2">
+                  <div class="content">
+                    <div class="back">
+                      <div class="back-content fram">
+                        <h3>Framwork & Library <br> CMS & No-code</h3>
+                      </div>
+                    </div>
+                    <div class="front">                      
+                      <div class="front-content">
+                        <div class="skill">
+                          <img src="./assets/medias/logos/tailwind-css.png" alt="Logo tailwind-css">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/Bootstrap.png" alt="Logo Bootstrap">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/react.png" alt="Logo react">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/Wordpress.png" alt="Logo WordPress">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/Webflow.png" alt="Logo webflow">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="card2">
+                  <div class="content">
+                    <div class="back">
+                      <div class="back-content design">
+                        <h3>Design</h3>
+                      </div>
+                    </div>
+                    <div class="front">                      
+                      <div class="front-content">
+                        <div class="skill">
+                          <img src="./assets/medias/logos/figma.png" alt="Logo figma">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/XD.png" alt="Logo Adobe XD">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/photoshop.png" alt="Logo photoshop">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/Illustrator.png" alt="Logo Illustrator">
+                        </div>
+                        <div class="skill">
+                          <img src="./assets/medias/logos/Canva.png" alt="Logo Canva">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Mes services -->
+    <section id="services">
+      <div class="container">
+        <div class="intro">
+          <div class="title-subtitle">
+            <h2>Mes <span>Services</span></h2>
+          </div>
+        </div>
+
+        <div class="services-content">
+          <!-- catégories -->
+          <div class="services-categories">
+            <div class="categorie">
+              <p>Développement web</p>
+            </div>
+            <div class="categorie">
+              <p>Maintenance web</p>
+            </div>
+            <div class="categorie">
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+
+          <div class="portfolio">
+            <div class="portfolio-content">
+              <div class="image">
+                <a id="port-1" href="./assets/medias/Services/Port-1.jpg" target="_blank" rel="noopener noreferrer">
+                  <img loading="lazy" src="./assets/medias/Services/Port-1.jpg" alt="Maquette portfolio">
+                </a>
+                <a id="port-2" href="./assets/medias/Services/Port-2.jpg" target="_blank" rel="noopener noreferrer">
+                  <img loading="lazy" src="./assets/medias/Services/Port-2.jpg" alt="Maquette portfolio">
+                </a>
+                <a id="port-3" href="./assets/medias/Services/Port-3.jpg" target="_blank" rel="noopener noreferrer">
+                  <img loading="lazy" src="./assets/medias/Services/Port-3.jpg" alt="Maquette portfolio">
+                </a>
+              </div>
+              <div class="description">
+                <h3>Développeur web de <span>A à Z</span></h3>
+                <p>Si vous n'avez pas encore de présence en ligne. Ou, vous en avez, mais c'est un site web lent, figé, mal présenté ou qui ne vous ressemble pas et que vous perdez en crédibilité et en opportunités. Alors que vous savez qu'aujourd’hui, votre image numérique vaut autant que votre savoir-faire. Si vous vous reconnaissez dans l’un de ces cas, je peux vous aider. Avec mes expértises en développement, je peux créer une solution simple, claire et efficace. </p>
+                <a href="https://calendar.app.google/BuNuKYCeNUkk8gH37">
+                  <button type="button" class="btn-github">
+                    <span>Prendre Rendez-vous</span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <main id="projets">
+      <div class="container">
+        <div class="intro">
+          <div class="title-subtitle">
+            <h2>Mes <span>réalisation</span></h2>
+          </div>
+        </div>
+
+        <div class="projet-contents">
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Clara-di-cesare.png" alt="Clara Di Cesare">
+          </div>
+          
+          <h2>Clara Portfolio</h2>
+          <p>
+            Portfolio d'un avocat en France développé avec Webflow
+          </p>
+          <div class="button">
+            <a href="https://clara-di-cesare.webflow.io/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/melkior.jpg" alt="melkior">
+          </div>
+          
+          <h2>Melkior</h2>
+          <p>
+            Landing page pour un début de projet. C'est un site de crypto money.
+          </p>
+          <div class="button">
+            <a href="https://www.melkior.org/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/ma_vie_en_livre.jpg" alt="Ma vie en livre">
+          </div>
+          
+          <h2>Ma vie en livre</h2>
+          <p>
+            C'est un projet dont j'ai participé pour quelque refonte et mise à jour des contenus sur Webflow.
+          </p>
+          <div class="button">
+            <a href="https://www.mavieenlivre.com/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/test_fluentech.jpeg" alt="Mon portfolio UI UX">
+          </div>
+          
+          <h2>Reflect</h2>
+          <p>
+            Réalisation d'un test technique d'entretien d'embauche sur Webflow.
+          </p>
+          <div class="button">
+            <a href="https://reflect-prod.webflow.io/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Muriella-portfolio.jpg" alt="Mon portfolio UI UX">
+          </div>
+          
+          <h2>Muriella portfolio</h2>
+          <p>
+            Le portfolio d'une Psychologue et recruteuse. Créé avec Webflow.
+          </p>
+          <div class="button">
+            <a href="https://muriella-randrianary.webflow.io/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/portfolio_ui_ux.jpeg" alt="Mon portfolio UI UX">
+          </div>
+          
+          <h2>Mon portfolio ui/ux</h2>
+          <p>
+            Un portfolio qui parle de mes compétences en web design et UI UX Design.
+          </p>
+          <div class="button">
+            <a href="https://antonin-ui-ux-portfolio.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/skillptor.jpg" alt="skillptor">
+          </div>
+          
+          <h2>Skillptor</h2>
+          <p>
+            Site web d'un agence de création de site web et de recrutement IT.
+          </p>
+          <div class="button">
+            <a href="https://www.skillptor.pro/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/willy_planquart.jpeg" alt="Willy planquart">
+          </div>
+          
+          <h2>Willy planquart</h2>
+          <p>
+            Site web d'un entreprise de travaux d'électricité et de chauffage.
+          </p>
+          <div class="button">
+            <a href="https://www.willy-plaquart.fr/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Mada_ponton.jpeg" alt="Projet mada ponton">
+          </div>
+          
+          <h2>Modelos CV</h2>
+          <p>
+            L'un de mes intégrations dans l'entreprise Mada ponton.
+          </p>
+          <div class="button">
+            <a href="https://modeles-cv.fr/exemples-de-cv/suisse-cv-pays">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/hydroclim.jpeg" alt="Hydroclim">
+          </div>
+          
+          <h2>Hydroclim</h2>
+          <p>
+            Site web d'une entreprise de plomberie, de climatisation et de chauffage.
+          </p>
+          <div class="button">
+            <a href="https://www.hydroclim.fr/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Elie_shish_taouk.jpeg" alt="Elie shish taouk">
+          </div>
+          
+          <h2>Chez Elie shish taouk</h2>
+          <p>
+            Site web d'un restaurant libanais à Chambly.
+          </p>
+          <div class="button">
+            <a href="https://www.chezeliechambly.ca/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/343.jpg" alt="Projet 343">
+          </div>
+          
+          <h2>343.is</h2>
+          <p>
+            Développement WordPress d'un site de services en ligne et d'e-commerce
+          </p>
+          <div class="button">
+            <a href="https://343.is/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Grafikaly.jpg" alt="Projet grafikaly">
+          </div>
+          
+          <h2>Grafikaly</h2>
+          <p>
+            Landing page d'un site e-commerce d'abonnement en ligne.
+          </p>
+          <div class="button">
+            <a href="https://grafikaly.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/kaly.jpg" alt="Projet kaly">
+          </div>
+          
+          <h2>Kaly</h2>
+          <p>
+            Un site vitrine d'un restaurant Malgache pour des plats simples et sains.
+          </p>
+          <div class="button">
+            <a href="https://kaly-xi.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/test-integ.jpg" alt="Projet Mairala">
+          </div>
+          
+          <h2>Mairala</h2>
+          <p>
+            Projet d'intégration web pour un entretien d'embauche.
+          </p>
+          <div class="button">
+            <a href="https://test-integ.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Portfolio-1.jpg" alt="Projet Portfolio-1">
+          </div>
+          
+          <h2>Portfolio graphiste</h2>
+          <p>
+            Portfolio simple d'un graphiste.
+          </p>
+          <div class="button">
+            <a href="https://graphiste-portfolio.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-projet">
+          <div class="align">
+            <img src="./assets/medias/Projets/Nature life.jpg" alt="Projet nature life">
+          </div>
+          
+          <h2>Nature life</h2>
+          <p>
+            Un petit projet d'un site vitrine d'une boutique de plante verte.
+          </p>
+          <div class="button">
+            <a href="https://nature-life-khaki.vercel.app/">
+              <button type="button" class="primary-button">Voir projet</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="info-projet">
+        <h3>Vous voulez voir mes Projets</h3>
+        <p>
+          Il vous suffit juste de cliquer sur le lien qui apparaît quand vous
+          passez sur une image. <br />
+          Ou bien, vous pouvez voir mon profil "GitHub" en cliquant sur le lien
+          en dessous
+        </p>
+        <a href="https://github.com/AntoninRz">
+          <button type="button" class="btn-github">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.99992 1.33331C7.12444 1.33331 6.25753 1.50575 5.4487 1.84078C4.63986 2.17581 3.90493 2.66688 3.28587 3.28593C2.03563 4.53618 1.33325 6.23187 1.33325 7.99998C1.33325 10.9466 3.24659 13.4466 5.89325 14.3333C6.22659 14.3866 6.33325 14.18 6.33325 14C6.33325 13.8466 6.33325 13.4266 6.33325 12.8733C4.48659 13.2733 4.09325 11.98 4.09325 11.98C3.78659 11.2066 3.35325 11 3.35325 11C2.74659 10.5866 3.39992 10.6 3.39992 10.6C4.06659 10.6466 4.41992 11.2866 4.41992 11.2866C4.99992 12.3 5.97992 12 6.35992 11.84C6.41992 11.4066 6.59325 11.1133 6.77992 10.9466C5.29992 10.78 3.74659 10.2066 3.74659 7.66665C3.74659 6.92665 3.99992 6.33331 4.43325 5.85998C4.36659 5.69331 4.13325 4.99998 4.49992 4.09998C4.49992 4.09998 5.05992 3.91998 6.33325 4.77998C6.85992 4.63331 7.43325 4.55998 7.99992 4.55998C8.56659 4.55998 9.13992 4.63331 9.66659 4.77998C10.9399 3.91998 11.4999 4.09998 11.4999 4.09998C11.8666 4.99998 11.6333 5.69331 11.5666 5.85998C11.9999 6.33331 12.2533 6.92665 12.2533 7.66665C12.2533 10.2133 10.6933 10.7733 9.20659 10.94C9.44659 11.1466 9.66659 11.5533 9.66659 12.1733C9.66659 13.0666 9.66659 13.7866 9.66659 14C9.66659 14.18 9.77325 14.3933 10.1133 14.3333C12.7599 13.44 14.6666 10.9466 14.6666 7.99998C14.6666 7.1245 14.4941 6.25759 14.1591 5.44876C13.8241 4.63992 13.333 3.90499 12.714 3.28593C12.0949 2.66688 11.36 2.17581 10.5511 1.84078C9.7423 1.50575 8.8754 1.33331 7.99992 1.33331V1.33331Z"
+                fill="currentcolor"
+              ></path>
+            </svg>
+            <span>Voir mon GitHub</span>
+          </button>
+        </a>
+      </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="content">
+          <div class="title">
+            <h2>Me&nbsp;<span>Contacter</span></h2>
+          </div>
+          <div class="footer-content">
+            <div class="contact">
+              <div class="coordonnees">
+                <h3>Mes coordonnées</h3>
+                <p>
+                  Vous trouverez ici mes coordonnées pour me contacter. <br />
+                  Mais vous pouvez aussi m'envoyer un message directement.
+                </p>
+              </div>
+              <div class="mes-coordonnees">
+                <p>
+                  <span><i class="fa-solid fa-phone"></i></span> +261 34 66 452
+                  54
+                </p>
+                <p>
+                  <span><i class="fa-solid fa-location-dot"></i></span
+                  >Ambatoroka, Antananarivo Madagascar
+                </p>
+                <p>
+                  <span><i class="fa-solid fa-envelope"></i></span>
+                  toninrazafison@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="copywrite">
+          <p>Copyright © Antonin Rz - <span> Portfolio </span></p>
+          <P>Site créé par <a href="https://antoninrz-portfolio.vercel.app/"><span>Antonin Razafison</span></a></P>
+      </div>
+    </div>
+</body>
+</html>
